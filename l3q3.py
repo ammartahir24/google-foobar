@@ -111,11 +111,11 @@ def gcd(a ,b):
 	else:
 		return gcd(b,a%b)
 
-def gcd(x,y):
-	div = min(x,y)
-	while x%div !=0 and y%div != 0:
-		div -= 1
-	return div
+# def gcd(x,y):
+# 	div = min(x,y)
+# 	while x%div !=0 and y%div != 0:
+# 		div -= 1
+# 	return div
 
 def lcm_gcd(x,y):
 	return (x*y)/gcd(x,y)
